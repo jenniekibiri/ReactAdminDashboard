@@ -3,14 +3,6 @@ import React, { Component } from 'react'
 export class Navbar extends Component {
     render() {
         return (
-          
-            
-
- 
-    <div id="content-wrapper" className="d-flex flex-column">
-
-      <div id="content">
-
        
         <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -191,9 +183,7 @@ export class Navbar extends Component {
           </ul>
 
                         </nav>
-                        </div>
-</div>
-            
+                            
                
         )
     }
