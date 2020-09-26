@@ -4,8 +4,8 @@ import {BrowserRouter} from 'react-router-dom'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
 import MainContent from './components/MainContent'
-import Footer from './components/Footer'
 import Users from './components/Users'
+import Posts from './components/Posts'
 
 
 
@@ -25,12 +25,11 @@ export class App extends Component {
 
                   <Switch>
                 <Route exact path="/" component={MainContent} />
-              </Switch>
-
-               <Switch>
+              
                 <Route exact path="/users" component={Users} />
+                  <Route exact path="/posts" component={Posts} />
               </Switch>
-               <Footer/>
+            
              
               
             </div>
