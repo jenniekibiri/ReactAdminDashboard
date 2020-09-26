@@ -1,6 +1,10 @@
 # React admin dashboard
-a simple dashboard to monitor user accounts 
-view users activities 
-approve posts
-generate reports
-assign roles.
+A simple dashboard to monitor user accounts.
+
+View users activities.
+
+Approve posts.
+
+Generate reports.
+
+Assign roles.
