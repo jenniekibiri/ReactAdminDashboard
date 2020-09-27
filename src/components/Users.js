@@ -31,6 +31,7 @@ export class Users extends Component {
    <th scope="col">email</th>
       <th scope="col">created</th>
       <th scope="col">email verified</th>
+       <th scope="col">Admin</th>
        <th scope="col">Action</th>
       
     </tr>
@@ -47,6 +48,8 @@ return(
       <td>{new Date(user.created).toDateString()}</td>
                  
        <td>true</td>
+       <td>false</td>
+
        <td>  <button className="btn  " type="button" >
                   <i type="btn" className="fas btn fa-trash fa-sm text-danger"></i>
                 </button>   </td>
