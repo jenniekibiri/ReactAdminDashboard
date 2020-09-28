@@ -36,7 +36,7 @@ export class Sidebar extends Component {
      <span>Roles</span>
                 </Link>
  </li>
- 
+
     <li className="nav-item">
    <Link className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUsers" aria-expanded="true"
      aria-controls="collapseUsers">
@@ -59,11 +59,11 @@ export class Sidebar extends Component {
                         Addons
   </div>
 <li className="nav-item">
-   <a className="nav-link collapsed"  data-toggle="collapse" data-target="#collapsePosts" aria-expanded="true"
+   <Link className="nav-link collapsed"  data-toggle="collapse" data-target="#collapsePosts" aria-expanded="true"
      aria-controls="collapsePosts">
      <i className="fas fa-fw fa-file"></i>
      <span>Posts</span>
-   </a>
+   </Link>
    <div id="collapsePosts" className="collapse" aria-labelledby="headingPosts" data-parent="#accordionSidebar">
        <Link to={"/posts"} className="text-white collapse-item user" >
                       <span className="text-white ml-3">posts</span>
@@ -73,10 +73,10 @@ export class Sidebar extends Component {
 
       <li className="nav-item">
                         
-                        <a className="nav-link collapsed"  data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                        <Link className="nav-link collapsed"  data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                             <i className="fas fa-fw fa-folder"></i>
                             <span>Pages</span>
-                        </a>
+                        </Link>
 
                         <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                             <div>  <Link to={"/signin"} className="text-white collapse-item user" >
