@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import MainContent from './components/MainContent'
 import Users from './components/Users'
 import Posts from './components/Posts'
-
+import Roles from './components/Roles'
 
 
 
@@ -28,6 +28,7 @@ export class App extends Component {
               
                 <Route exact path="/users" component={Users} />
                   <Route exact path="/posts" component={Posts} />
+                  <Route exact path="/roles" component={Roles} />
               </Switch>
             
              

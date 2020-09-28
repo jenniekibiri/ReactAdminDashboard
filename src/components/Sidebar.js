@@ -31,22 +31,12 @@ export class Sidebar extends Component {
   </div>
       
 <li className="nav-item">
-   <a className="nav-link collapsed" data-toggle="collapse" data-target="#collapseRoles" aria-expanded="true"
-     aria-controls="collapseRoles">
+    <Link to={"/roles"} className="text-white user nav-link ">
      <i className="fas fa-fw fa-lock"></i>
      <span>Roles</span>
-   </a>
-   <div id="collapseRoles" className="collapse" aria-labelledby="headingRoles" data-parent="#accordionSidebar">
-    <div>   <Link to={"/assign"} className="text-white collapse-item user" >
-                      <span className="text-white ml-3">assign</span>
-                </Link></div>
-                <div>
-                   <Link to={"/viewroles"} className="text-white collapse-item user" >
-                      <span className="text-white ml-3">view roles</span>
                 </Link>
-                </div>
-   </div>
  </li>
+ 
     <li className="nav-item">
    <Link className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUsers" aria-expanded="true"
      aria-controls="collapseUsers">

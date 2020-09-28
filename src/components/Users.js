@@ -51,7 +51,7 @@ return(
        <td>false</td>
 
        <td>  <button className="btn  " type="button" >
-                  <i type="btn" className="fas btn fa-trash fa-sm text-danger"></i>
+                  <i type="button" className="fas btn fa-trash fa-sm text-danger"></i>
                 </button>   </td>
      </tr>
 )
