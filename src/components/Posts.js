@@ -10,7 +10,7 @@ export class Posts extends Component {
   componentDidMount(){
   allPosts()
     .then(response=>{
-      console.log(response)
+  
         return response.json();
     }).then(data=>{
       this.setState({

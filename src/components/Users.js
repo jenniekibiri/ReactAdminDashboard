@@ -10,7 +10,7 @@ export class Users extends Component {
   componentDidMount(){
   allUsers()
     .then(response=>{
-      console.log(response)
+    
         return response.json();
     }).then(data=>{
       this.setState({
